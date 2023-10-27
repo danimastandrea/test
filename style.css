@@ -1,0 +1,153 @@
+/**
+* You can edit this whole file.
+*/
+body{
+  background-color: #fbfbfb;
+}
+nav{
+  background-color: #20d397;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+
+}
+.nav_title{
+  color: #fff;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.nav_img{
+  width: 30px;
+
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+ 
+  list-style: none;
+}
+li{
+  margin: 0 10px;
+  
+}
+ .active{
+  text-decoration: underline;
+  text-decoration-color: #fff ;
+  
+}
+a{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.title{
+  color: #222222;
+  font-weight: 600;
+  padding: 30px 0;
+  font-size: 30px;
+}
+.content_container{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  padding: 0 30px;
+  
+}
+@media (max-width: 768px){
+  .card{
+    margin: auto;
+  }
+  .cards_container{
+    flex-direction: column;
+  }
+}
+.cards_container{
+  display: flex;
+  
+  justify-content: space-between;
+  max-width: 100%;
+  
+  
+}
+.card{
+  background-color: #fbfbfb;
+  padding: 20px 20px;
+  width: 290px;
+  height: auto;
+  box-shadow: 18px 16px 15px -3px rgba(0,0,0,0.1);
+  border-left: 1px solid #dadada;
+  border-top: 1px solid #dadada;
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+h2{
+  color: #222222;
+  font-weight: 600;
+}
+.btn{
+  border: 1px solid #8a2be2;
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 5px 20px 8px 20px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.btn_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+.btn img{
+  width: 25px;
+    padding: 5px 10px 0 0;
+}
+
+/* */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --gray-0: #000000;
+  --gray-1: #222222;
+  --gray-2: #dddddd;
+  --gray-3: #fbfbfb;
+  --gray-4: #ffffff;
+  --primary: #8a2be2;
+  --secondary: #20d397;
+  --font-size-1: 1.5rem;
+  --font-size-2: 1.25rem;
+  --font-size-3: 1rem;
+  --font-weight-thin: 300;
+  --font-weight-bold: 600;
+  --font-weight-heavy: 800;
+  --spacer-1: .25rem;
+  --spacer-2: .5rem;
+  --spacer-3: 1rem;
+  --spacer-4: 1.5rem;
+  --spacer-5: 2rem;
+  --shadows: 7px 7px 7px rgba(0, 0, 0, .15);
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.44;
+}
